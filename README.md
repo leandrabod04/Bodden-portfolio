@@ -10,10 +10,6 @@ Welcome to my personal portfolio site, built with React and designed to showcase
 - React Router
 - Custom CSS
 
-## 🌐 Live Site
-
-👉 [Click here to view the live site](https://your-deployment-url.netlify.app)
-
 ## 🧩 Pages Included
 
 - **Home**: A warm welcome with a custom background (featuring my art!)
