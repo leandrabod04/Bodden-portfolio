@@ -1,0 +1,115 @@
+/* Global layout */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #e0f3fc;
+    color: #2d3e50;
+    font-family: 'Lora', serif;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.navbar-brand {
+    font-family: 'Playfair Display', serif;
+}
+
+/* Home hero gradient */
+.hero-gradient {
+    background: linear-gradient(to bottom right, #e0f7fa, #e1f0ff);
+    min-height: 100vh;
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #2d3e50;
+}
+
+
+/* Page layout */
+.page {
+    background-color: #e0f3fc;
+    min-height: 100vh;
+    width: 100%;
+    padding: 6rem 2rem 2rem 2rem;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #1e293b !important;
+    border-bottom: 1px solid #334155;
+}
+
+.navbar .nav-link {
+    color: #e2e8f0 !important;
+    transition: color 0.3s;
+}
+
+.navbar .nav-link:hover {
+    color: #38bdf8 !important;
+}
+
+.navbar-brand {
+    color: #e2e8f0 !important;
+}
+
+/* Project Cards */
+.card {
+    background-color: #1e293b;
+    color: #e2e8f0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(56, 189, 248, 0.2);
+}
+
+footer {
+    border-top: 1.5px solid #1e293b;
+    background-color: #1e293b;
+    padding: 2rem 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #e2e8f0;
+}
+
+.linkedIn-link {
+    color: #0a66c2;
+    transition: transform 0.3s, color 0.3s;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 500;
+}
+
+.linkedIn-link:hover {
+    transform: scale(1.05);
+    color: #084298;
+}
+
+/* Footer icon link styles */
+.social-link {
+    color: #e2e8f0;
+    transition: transform 0.3s, color 0.3s;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+.social-link:hover {
+    transform: scale(1.05);
+    color: #0077b6;
+}
