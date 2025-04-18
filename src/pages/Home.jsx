@@ -1,8 +1,11 @@
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 import '../styles/custom.css';
 import backgroundImg from '../assets/Manatee.jpg';
 
 export default function Home() {
+    const MotionLink = motion(Link);
+
     return (
         <div
             className="hero-bg-image pt-5 mt-5"
@@ -39,14 +42,14 @@ export default function Home() {
                 >
                     Welcome, my name is Leandra. I'm a web designer & developer creating modern, responsive websites.
                 </motion.p>
-                <motion.a
-                    href="/projects"
+                <MotionLink
+                    to="/projects"
                     className="btn btn-outline-primary mt-3"
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                 >
                     View My Work
-                </motion.a>
+                </MotionLink>
             </div>
         </div>
     );
